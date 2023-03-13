@@ -1,7 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import mapboxgl from "mapbox-gl";
-import Mapa from "./mapa";
+import Mapa from "./Mapa";
 const Footer = ({ title }) => {
   const urlNavegacion = [
     ["/", "Incio"],
