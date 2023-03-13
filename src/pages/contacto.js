@@ -1,5 +1,5 @@
 import Layout from "@/components/Layout";
-import Mapa from "@/components/mapa";
+import Mapa from "@/components/Mapa";
 
 import React from "react";
  
