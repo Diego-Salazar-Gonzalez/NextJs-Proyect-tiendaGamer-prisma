@@ -8,10 +8,33 @@
     "start": "next start",
     "lint": "next lint"
   },
+  "prisma": {
+    "seed": "ts-node prisma/seed.ts"
+  },
   "dependencies": {
+    "@headlessui/react": "^1.7.8",
+    "@heroicons/react": "^2.0.14",
     "@next/font": "13.1.5",
+    "@paypal/react-paypal-js": "^7.8.2",
+    "@prisma/client": "^4.9.0",
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@tailwindcss/forms": "^0.5.3",
+    "axios": "^1.2.6",
+    "google-map-react": "^2.2.0",
+    "mapbox-gl": "^2.12.0",
     "next": "13.1.5",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-burger-menu": "^3.0.9",
+    "react-dom": "18.2.0",
+    "react-leaflet": "^4.2.0",
+    "react-toastify": "^9.1.1",
+    "swiper": "^8.4.6",
+    "ts-node": "^10.9.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.21",
+    "prisma": "^4.9.0",
+    "tailwindcss": "^3.2.4"
   }
 }
